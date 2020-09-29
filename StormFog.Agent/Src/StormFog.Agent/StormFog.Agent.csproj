@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-StormFog.Agent-DC855869-BE67-45FE-BD36-4FEBB2814C51</UserSecretsId>
+    <OutputType>Exe</OutputType>
+    <ApplicationIcon>StormFog.Agent.ico</ApplicationIcon>
+    <AssemblyName>StormFog.Agent</AssemblyName>
+    <AssemblyTitle>StormFog Agent</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Publish\**" />
+    <Content Remove="Publish\**" />
+    <EmbeddedResource Remove="Publish\**" />
+    <None Remove="Publish\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="StormFog.Agent.ico" />
+    <None Remove="StormFog.Agent.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Cronos" Version="0.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.8" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StormFog.Agent.BusinessLogic\StormFog.Agent.BusinessLogic.csproj" />
+    <ProjectReference Include="..\StormFog.Agent.Data\StormFog.Agent.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "StormFog.Agent": {
+      "commandName": "Project",
+      "commandLineArgs": "-l Verbose",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

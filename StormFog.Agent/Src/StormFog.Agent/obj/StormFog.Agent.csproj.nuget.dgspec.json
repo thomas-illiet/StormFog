@@ -1,0 +1,409 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent\\StormFog.Agent.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\StormFog.Agent.BusinessLogic.Wmi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\StormFog.Agent.BusinessLogic.Wmi.csproj",
+        "projectName": "StormFog.Agent.BusinessLogic.Wmi",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\StormFog.Agent.BusinessLogic.Wmi.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Management": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\StormFog.Agent.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\StormFog.Agent.BusinessLogic.csproj",
+        "projectName": "StormFog.Agent.BusinessLogic",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\StormFog.Agent.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\StormFog.Agent.BusinessLogic.Wmi.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic.Wmi\\StormFog.Agent.BusinessLogic.Wmi.csproj"
+              },
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj"
+              },
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\StormFog.Agent.Shared.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\StormFog.Agent.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj",
+        "projectName": "StormFog.Agent.Data",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\StormFog.Agent.Entity.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\StormFog.Agent.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\StormFog.Agent.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\StormFog.Agent.Entity.csproj",
+        "projectName": "StormFog.Agent.Entity",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\StormFog.Agent.Entity.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\StormFog.Agent.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\StormFog.Agent.Shared.csproj",
+        "projectName": "StormFog.Agent.Shared",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\StormFog.Agent.Shared.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent\\StormFog.Agent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent\\StormFog.Agent.csproj",
+        "projectName": "StormFog.Agent",
+        "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent\\StormFog.Agent.csproj",
+        "packagesPath": "C:\\Users\\tilliet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tilliet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\StormFog.Agent.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.BusinessLogic\\StormFog.Agent.BusinessLogic.csproj"
+              },
+              "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj": {
+                "projectPath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Agent.Data\\StormFog.Agent.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

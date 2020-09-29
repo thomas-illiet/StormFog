@@ -1,0 +1,12 @@
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\bin\Release\netcoreapp3.1\StormFog.Agent.Data.deps.json
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\bin\Release\netcoreapp3.1\StormFog.Agent.Data.dll
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\bin\Release\netcoreapp3.1\StormFog.Agent.Data.pdb
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.csprojAssemblyReference.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.AssemblyInfoInputs.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.AssemblyInfo.cs
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.csproj.CoreCompileInputs.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.dll
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.pdb
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\bin\Release\netcoreapp3.1\StormFog.Agent.Entity.dll
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\bin\Release\netcoreapp3.1\StormFog.Agent.Entity.pdb
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Data\obj\Release\netcoreapp3.1\StormFog.Agent.Data.csproj.CopyComplete

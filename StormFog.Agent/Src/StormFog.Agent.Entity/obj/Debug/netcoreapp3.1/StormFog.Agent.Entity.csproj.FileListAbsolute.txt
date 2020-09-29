@@ -1,0 +1,9 @@
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\bin\Debug\netcoreapp3.1\StormFog.Agent.Entity.deps.json
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\bin\Debug\netcoreapp3.1\StormFog.Agent.Entity.dll
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\bin\Debug\netcoreapp3.1\StormFog.Agent.Entity.pdb
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.csprojAssemblyReference.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.AssemblyInfoInputs.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.AssemblyInfo.cs
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.csproj.CoreCompileInputs.cache
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.dll
+C:\Users\tilliet\Source\repos\StormFog.Agent\Src\StormFog.Agent.Entity\obj\Debug\netcoreapp3.1\StormFog.Agent.Entity.pdb

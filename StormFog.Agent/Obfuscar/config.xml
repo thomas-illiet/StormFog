@@ -1,0 +1,6 @@
+<?xml version='1.0'?>
+<Obfuscator>
+  <Var name="InPath" value="C:\Users\tilliet\Source\repos\StormFog.Agent\Obfuscar\Input" />
+  <Var name="OutPath" value=".C:\Users\tilliet\Source\repos\StormFog.Agent\Obfuscar\Output" />
+  <Module file="$(InPath)\StormFog.Agent.exe" />
+</Obfuscator>

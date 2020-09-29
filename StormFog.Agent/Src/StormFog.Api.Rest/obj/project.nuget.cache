@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CUYoA99iMi/Ycv1D8RkMsb8L3EfCO1wG85T1koVy/I9Sl7cwuC/j8Z6lP5Nvc1qGn73nDPUaWEEnwWnuYw2Z2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tilliet\\Source\\repos\\StormFog.Agent\\Src\\StormFog.Api.Rest\\StormFog.Api.Rest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tilliet\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\tilliet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tilliet\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.1\\swashbuckle.aspnetcore.5.6.1.nupkg.sha512",
+    "C:\\Users\\tilliet\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.1\\swashbuckle.aspnetcore.swagger.5.6.1.nupkg.sha512",
+    "C:\\Users\\tilliet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.1\\swashbuckle.aspnetcore.swaggergen.5.6.1.nupkg.sha512",
+    "C:\\Users\\tilliet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.1\\swashbuckle.aspnetcore.swaggerui.5.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
